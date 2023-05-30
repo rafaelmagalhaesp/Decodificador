@@ -40,7 +40,7 @@ h6 {
     
     font-size: 24px;
     color: grey;
-    background-image: url(/imagens/exclamação.png);
+    background-image: url(./imagens/exclamação.png);
     background-repeat: no-repeat;
     background-position: left center;
     padding-inline: 10px;
