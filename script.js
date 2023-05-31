@@ -23,8 +23,6 @@ function substituirVogais(texto) {
       case "u":
         novoTexto += "ufat";
         break;
-      case "y":
-        novoTexto += "nygga";
       default:
         novoTexto += letra;
         break;
@@ -64,7 +62,7 @@ function descriptografar() {
   textoDescriptografado = textoDescriptografado.replace(/imes/g, "i");
   textoDescriptografado = textoDescriptografado.replace(/enter/g, "e");
   textoDescriptografado = textoDescriptografado.replace(/ai/g, "a");
-  textoDescriptografado = textoDescriptografado.replace(/nygga/g, "y");
+  
 
   if (saida) {
     imagem.style.display = "none";
